@@ -1,3 +1,9 @@
 body {
-    background-image: url('img/thunder a6aaff.gif')
+    background-image: url('img/thunder a6aaff.gif');
+}
+
+.deer {
+	width: 300px;
+	background-image: url('img/deer.jpg');
+	background-repeat: repeat-x;
 }
