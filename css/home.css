@@ -1,9 +1,25 @@
 body {
 	height: 100%;
+	width: 100%;
     color: #15151a;
     text-align: center;
     background: url("../img/thunder.gif") repeat 0 0;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
 }
+
+img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 116px;
+	margin-top: -58px; /* Half the height */
+	margin-left: -50px; /* Half the width */
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
