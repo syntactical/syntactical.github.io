@@ -1,9 +1,10 @@
 body {
-    background-image: url('img/thunder a6aaff.gif');
+	height: 100%;
+    color: #15151a;
+    text-align: center;
+    background: url("../img/thunder.gif") repeat 0 0;
 }
-
-.deer {
-	width: 300px;
-	background-image: url('img/deer.jpg');
-	background-repeat: repeat-x;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
