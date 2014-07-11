@@ -1,0 +1,15 @@
+body {
+	height: 100%;
+	width: 100%;
+    color: #15151a;
+    text-align: center;
+    -webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
