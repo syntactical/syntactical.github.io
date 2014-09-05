@@ -1,26 +1,29 @@
 float angle;
 
 void setup() {
-  stroke(255);
-  size(400,200,P2D);
+  angle = 2120;
+  
+  size(400,200);
   angle = 0;
   frameRate(24);
+  strokeWeight(2);
+  smooth();
 }
 
 void draw(){
-  background(0);
-  strokeWeight(2);
-  smooth();
-  noFill();
+  background(0,0,0,0);
+
+  stroke(255);
 
   line(0,(angle*25)%(height),width/2,(angle*30)%(height));
   line(0,(angle*25+angle*2)%(height),width/2,(angle*30+angle*2)%(height));
   line(0,(angle*25+angle*4)%(height),width/2,(angle*30+angle*4)%(height));  
-  
+
   line((angle*25)%(width/2),0,(angle*30)%(width/2),height);
   line((angle*25)%(width/2)+angle*2,0,(angle*30+angle*2)%(width/2),height);
   line((angle*25)%(width/2)+angle*4,0,(angle*30+angle*4)%(width/2),height);
   oscillate();
+
   mirror();
 }
 
