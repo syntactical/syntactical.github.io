@@ -3,7 +3,7 @@ float angle;
 void setup() {
   angle = 2120;
   
-  size(400,200);
+  size(700,300);
   angle = 0;
   frameRate(24);
   strokeWeight(2);
